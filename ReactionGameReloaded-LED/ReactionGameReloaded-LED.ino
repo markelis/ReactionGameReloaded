@@ -123,16 +123,6 @@ void loop() {
   while(stop == true) {
     delay(1);
     // ToDo restart...
-    /*delay(100);
-    Serial.println("To repeat the challenge press the button!");
-    while(digitalRead(btn) == LOW) {
-      delay(1);
-    
-    if(digitalRead(btn) == HIGH) {
-      stop = false;
-    }
-    }*/
-    
   }
 
 }
